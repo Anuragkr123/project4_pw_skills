@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+body{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./img1.jpg')no-repeat center center/cover;
+  background-size: cover;
+  background-position: top center;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+/* navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar-logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-logo img{
+  width: 100px;
+  height: auto;
+}
+.navbar-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.navbar-items ul{
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-items ul li{
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+}
+.navbar-items ul li a{
+  text-decoration: none;
+  justify-content: space-around;
+  margin: 3rem;
+  color: #daa520;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.navbar-items ul li a:hover{
+  background-color: #fff;
+  text-decoration: underline;
+}
+button{
+  color: white;
+  background-color: red;
+  padding:6px 15px;
+  border: 0px;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+button:hover{
+  font-size: 30px;
+}
+.hero-section{
+  max-width: 1154px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 119px;
+}
+.div-heading h1{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: #daa520;
+  font-weight: 400;
+  font-size: 93px;
+  font-family: 'Dela Gothic One', cursive;
+  text-align: center;
+  line-height: 114px;
+}
+.div-btns button{
+  padding: 15px;
+  margin-top: 34px;
+}
+.bottom-scrool img{
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
